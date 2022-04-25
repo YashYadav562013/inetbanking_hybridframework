@@ -53,6 +53,11 @@
     <artifactId>poi-scratchpad</artifactId>
     <version>5.2.1</version>
 </dependency>
+<dependency>
+  <groupId>com.aventstack</groupId>
+  <artifactId>extentreports</artifactId>
+  <version>4.0.0</version>
+</dependency>
 
 
    

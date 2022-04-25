@@ -52,15 +52,18 @@ public class LoginPage {
 		try {
 			loginbtn.click();
 			
-			if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+			if (driver.getTitle().equals("Guru99 Bank Manager HomePage1001")) {
+				Helper.CaptureScreenShot(driver);
 				Assert.assertTrue(true);
 				return new HomePage(driver);
 			} else {
+				Helper.CaptureScreenShot(driver);
 				if(Helper.isAlertPresent(driver)) {
 				//driver.switchTo().alert().getText();
 				driver.switchTo().alert().accept();
 				}
 				Assert.assertFalse(false);
+				Helper.CaptureScreenShot(driver);
 				return null;
 			}
 		} catch (Exception e) {

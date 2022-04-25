@@ -29,7 +29,7 @@ public class NewCustumerTC001 extends Testbase {
 		addnewcustomer.SetStateName("Maharashtra");
 		addnewcustomer.SetPincode("411046");
 		addnewcustomer.SetMobileNumber("8485842537");
-		addnewcustomer.SetEmail_ID(new Helper().SetRandomValue()+"@gmil.com");
+		addnewcustomer.SetEmail_ID(new Helper().SetRandomValue()+"@gmail.com");
 		addnewcustomer.SetPassword("Hodo@5613");
 		addnewcustomer.ClickonSubmitBtn();
 		

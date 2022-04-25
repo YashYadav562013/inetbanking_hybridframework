@@ -9,7 +9,7 @@ public class LoginTC001 extends Testbase {
 
 	@Test
 	public void loginTC() {
-
+		extenttest=extentreports.createTest("Login Functionality Testcase");
 		LoginPage Login = new LoginPage(driver);
 		Login.setUsername(configer.getusername());
 		Login.setPassword(configer.getpassword());
